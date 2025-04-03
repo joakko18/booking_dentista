@@ -1,10 +1,10 @@
 'use client';
 
 import FullCalendarComponent from '../components/FullCalendarComponent';
-
+import Layout from '../components/Layout';
 export default function AppointmentsPage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Layout>    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-dental-dark">Reserva tu Cita</h1>
         <p className="mt-2 text-dental-gray-600">
@@ -16,5 +16,7 @@ export default function AppointmentsPage() {
         <FullCalendarComponent />
       </div>
     </div>
+    </Layout>
+
   );
 } 

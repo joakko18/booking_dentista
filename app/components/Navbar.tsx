@@ -23,10 +23,7 @@ export default function Navbar() {
               <Home className="w-5 h-5 mr-1" />
               Inicio
             </Link>
-            <Link href="/services" className="text-dental-dark hover:text-dental-primary flex items-center">
-              <Calendar className="w-5 h-5 mr-1" />
-              Servicios
-            </Link>
+            
             <Link href="/aboutUs" className="text-dental-dark hover:text-dental-primary flex items-center">
               <Info className="w-5 h-5 mr-1" />
               Sobre Nosotros
@@ -39,7 +36,7 @@ export default function Navbar() {
               <Calendar className="w-5 h-5 mr-1" />
               Reservar Cita
             </Link>
-            <Link href="/profile" className="text-dental-dark hover:text-dental-primary flex items-center">
+            <Link href="/admin" className="text-dental-dark hover:text-dental-primary flex items-center">
               <User className="w-5 h-5 mr-1" />
               Mi Cuenta
             </Link>
